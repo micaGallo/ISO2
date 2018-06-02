@@ -65,7 +65,7 @@ public class PanelAmigos extends javax.swing.JPanel {
         panelTitulo.setForeground(new java.awt.Color(255, 255, 255));
         panelTitulo.setMaximumSize(new java.awt.Dimension(390, 46));
 
-        etqTitulo.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        etqTitulo.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         etqTitulo.setForeground(new java.awt.Color(255, 255, 255));
         etqTitulo.setText("Amigos");
 
@@ -227,7 +227,7 @@ public class PanelAmigos extends javax.swing.JPanel {
         panelTitulo1.setForeground(new java.awt.Color(255, 255, 255));
         panelTitulo1.setMaximumSize(new java.awt.Dimension(390, 46));
 
-        etqTitulo1.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        etqTitulo1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         etqTitulo1.setForeground(new java.awt.Color(255, 255, 255));
         etqTitulo1.setText("Buscar amigos");
 
@@ -399,12 +399,12 @@ public class PanelAmigos extends javax.swing.JPanel {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 479, Short.MAX_VALUE)
+                .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 488, Short.MAX_VALUE)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 745, Short.MAX_VALUE)
+            .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, 687, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 

@@ -96,7 +96,7 @@ public class VentanaMenu extends javax.swing.JFrame {
         panelMenu.setBackground(new java.awt.Color(39, 39, 39));
 
         btnMisViajes.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
-        btnMisViajes.setForeground(new java.awt.Color(255, 255, 51));
+        btnMisViajes.setForeground(new java.awt.Color(204, 204, 204));
         btnMisViajes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/traveller/interfaz/img/opcionMenu.png"))); // NOI18N
         btnMisViajes.setText("Mis viajes");
         btnMisViajes.setAlignmentY(0.0F);
@@ -126,7 +126,7 @@ public class VentanaMenu extends javax.swing.JFrame {
         });
 
         btnNuevoEvento.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
-        btnNuevoEvento.setForeground(new java.awt.Color(0, 51, 255));
+        btnNuevoEvento.setForeground(new java.awt.Color(204, 204, 204));
         btnNuevoEvento.setIcon(new javax.swing.ImageIcon(getClass().getResource("/traveller/interfaz/img/opcionMenu.png"))); // NOI18N
         btnNuevoEvento.setText("Nuevo evento");
         btnNuevoEvento.setAlignmentY(0.0F);
@@ -155,8 +155,9 @@ public class VentanaMenu extends javax.swing.JFrame {
             }
         });
 
+        btnAmigos.setBackground(new java.awt.Color(255, 255, 255));
         btnAmigos.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
-        btnAmigos.setForeground(new java.awt.Color(104, 104, 104));
+        btnAmigos.setForeground(new java.awt.Color(204, 204, 204));
         btnAmigos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/traveller/interfaz/img/opcionMenu.png"))); // NOI18N
         btnAmigos.setText("Amigos");
         btnAmigos.setAlignmentY(0.0F);
@@ -186,7 +187,7 @@ public class VentanaMenu extends javax.swing.JFrame {
         });
 
         btnMiCuenta.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
-        btnMiCuenta.setForeground(new java.awt.Color(104, 104, 104));
+        btnMiCuenta.setForeground(new java.awt.Color(204, 204, 204));
         btnMiCuenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/traveller/interfaz/img/opcionMenu.png"))); // NOI18N
         btnMiCuenta.setText("Mi cuenta");
         btnMiCuenta.setAlignmentY(0.0F);
@@ -245,8 +246,9 @@ public class VentanaMenu extends javax.swing.JFrame {
             }
         });
 
+        btnAgendarViaje1.setBackground(new java.awt.Color(204, 204, 204));
         btnAgendarViaje1.setFont(new java.awt.Font("SansSerif", 0, 15)); // NOI18N
-        btnAgendarViaje1.setForeground(new java.awt.Color(104, 104, 104));
+        btnAgendarViaje1.setForeground(new java.awt.Color(204, 204, 204));
         btnAgendarViaje1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/traveller/interfaz/img/opcionMenu.png"))); // NOI18N
         btnAgendarViaje1.setText("Agendar Viaje");
         btnAgendarViaje1.setAlignmentY(0.0F);

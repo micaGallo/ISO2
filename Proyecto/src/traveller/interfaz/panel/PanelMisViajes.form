@@ -58,7 +58,7 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Component id="PanelConsultaJugadores" pref="479" max="32767" attributes="1"/>
+              <Component id="PanelConsultaJugadores" pref="460" max="32767" attributes="1"/>
               <Component id="panelTitulo2" alignment="0" max="32767" attributes="1"/>
           </Group>
         </DimensionLayout>
@@ -67,7 +67,7 @@
               <Group type="102" alignment="0" attributes="0">
                   <Component id="panelTitulo2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="PanelConsultaJugadores" pref="680" max="32767" attributes="0"/>
+                  <Component id="PanelConsultaJugadores" pref="614" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -426,7 +426,7 @@
             <Component class="javax.swing.JLabel" name="etqTitulo2">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="SansSerif" size="18" style="0"/>
+                  <Font name="SansSerif" size="18" style="1"/>
                 </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>

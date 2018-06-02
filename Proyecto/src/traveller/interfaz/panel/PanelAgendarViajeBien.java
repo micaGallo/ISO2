@@ -77,8 +77,8 @@ public class PanelAgendarViajeBien extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         txtDescripcion = new javax.swing.JTextPane();
         btnAgendar = new javax.swing.JButton();
-        etqCorrecto = new javax.swing.JLabel();
         etqError = new javax.swing.JLabel();
+        etqCorrecto = new javax.swing.JLabel();
         comboDestino = new javax.swing.JComboBox();
         panelTitulo1 = new javax.swing.JPanel();
         etqTitulo1 = new javax.swing.JLabel();
@@ -121,7 +121,7 @@ public class PanelAgendarViajeBien extends javax.swing.JPanel {
         txtNuevoDestino.setBounds(320, 205, 132, 29);
 
         etqNuevoDestino.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        etqNuevoDestino.setForeground(new java.awt.Color(0, 0, 255));
+        etqNuevoDestino.setForeground(new java.awt.Color(255, 204, 0));
         etqNuevoDestino.setText("Escriba el nuevo destino y presione el botón +");
         add(etqNuevoDestino);
         etqNuevoDestino.setBounds(125, 251, 254, 28);
@@ -174,13 +174,15 @@ public class PanelAgendarViajeBien extends javax.swing.JPanel {
         add(btnAgendar);
         btnAgendar.setBounds(117, 630, 101, 29);
 
-        etqCorrecto.setForeground(new java.awt.Color(0, 153, 0));
-        add(etqCorrecto);
-        etqCorrecto.setBounds(15, 84, 437, 27);
-
+        etqError.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
         etqError.setForeground(new java.awt.Color(204, 0, 0));
         add(etqError);
-        etqError.setBounds(15, 556, 437, 28);
+        etqError.setBounds(15, 84, 437, 27);
+
+        etqCorrecto.setFont(new java.awt.Font("Tahoma", 1, 13)); // NOI18N
+        etqCorrecto.setForeground(new java.awt.Color(0, 153, 0));
+        add(etqCorrecto);
+        etqCorrecto.setBounds(15, 556, 437, 28);
 
         comboDestino.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -194,7 +196,7 @@ public class PanelAgendarViajeBien extends javax.swing.JPanel {
         panelTitulo1.setForeground(new java.awt.Color(255, 255, 255));
         panelTitulo1.setMaximumSize(new java.awt.Dimension(390, 46));
 
-        etqTitulo1.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        etqTitulo1.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         etqTitulo1.setForeground(new java.awt.Color(255, 255, 255));
         etqTitulo1.setText("Agendar Viaje");
 
@@ -205,7 +207,7 @@ public class PanelAgendarViajeBien extends javax.swing.JPanel {
             .addGroup(panelTitulo1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(etqTitulo1)
-                .addContainerGap(424, Short.MAX_VALUE))
+                .addContainerGap(412, Short.MAX_VALUE))
         );
         panelTitulo1Layout.setVerticalGroup(
             panelTitulo1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

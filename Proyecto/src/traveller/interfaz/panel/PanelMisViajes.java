@@ -236,7 +236,7 @@ public class PanelMisViajes extends javax.swing.JPanel {
         panelTitulo2.setBackground(new java.awt.Color(39, 39, 39));
         panelTitulo2.setForeground(new java.awt.Color(255, 255, 255));
 
-        etqTitulo2.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        etqTitulo2.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         etqTitulo2.setForeground(new java.awt.Color(255, 255, 255));
         etqTitulo2.setText("Mis viajes");
 
@@ -261,7 +261,7 @@ public class PanelMisViajes extends javax.swing.JPanel {
         panelPrincipal.setLayout(panelPrincipalLayout);
         panelPrincipalLayout.setHorizontalGroup(
             panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(PanelConsultaJugadores, javax.swing.GroupLayout.DEFAULT_SIZE, 479, Short.MAX_VALUE)
+            .addComponent(PanelConsultaJugadores, javax.swing.GroupLayout.DEFAULT_SIZE, 460, Short.MAX_VALUE)
             .addComponent(panelTitulo2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         panelPrincipalLayout.setVerticalGroup(
@@ -269,7 +269,7 @@ public class PanelMisViajes extends javax.swing.JPanel {
             .addGroup(panelPrincipalLayout.createSequentialGroup()
                 .addComponent(panelTitulo2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(PanelConsultaJugadores, javax.swing.GroupLayout.DEFAULT_SIZE, 680, Short.MAX_VALUE))
+                .addComponent(PanelConsultaJugadores, javax.swing.GroupLayout.DEFAULT_SIZE, 614, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);

@@ -72,7 +72,7 @@ public class PanelMiCuenta extends javax.swing.JPanel {
         panelTitulo.setBackground(new java.awt.Color(39, 39, 39));
         panelTitulo.setForeground(new java.awt.Color(255, 255, 255));
 
-        etqTitulo.setFont(new java.awt.Font("SansSerif", 0, 18)); // NOI18N
+        etqTitulo.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
         etqTitulo.setForeground(new java.awt.Color(255, 255, 255));
         etqTitulo.setText("Mi Cuenta");
 
@@ -83,7 +83,7 @@ public class PanelMiCuenta extends javax.swing.JPanel {
             .addGroup(panelTituloLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(etqTitulo)
-                .addContainerGap(382, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         panelTituloLayout.setVerticalGroup(
             panelTituloLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -288,6 +288,7 @@ public class PanelMiCuenta extends javax.swing.JPanel {
         });
 
         etqAclaracion.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        etqAclaracion.setForeground(new java.awt.Color(255, 204, 0));
         etqAclaracion.setText("* El envío de e-mails no funciona correctamente cuando se está usando un proxy.");
 
         panelCelular.setBackground(new java.awt.Color(255, 255, 255));
@@ -441,7 +442,7 @@ public class PanelMiCuenta extends javax.swing.JPanel {
         panelPrincipalLayout.setHorizontalGroup(
             panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(panelTitulo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addComponent(panelCrearJugador, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
+            .addComponent(panelCrearJugador, javax.swing.GroupLayout.DEFAULT_SIZE, 484, Short.MAX_VALUE)
         );
         panelPrincipalLayout.setVerticalGroup(
             panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
