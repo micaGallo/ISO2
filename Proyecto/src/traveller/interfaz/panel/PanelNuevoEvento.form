@@ -71,7 +71,7 @@
               <Group type="102" attributes="0">
                   <Component id="panelTitulo" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="panelCrearJugador" pref="682" max="32767" attributes="0"/>
+                  <Component id="panelCrearJugador" pref="684" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -144,75 +144,72 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="etqAclaracion" min="-2" pref="499" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="etqNombre" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="etqFechas" min="-2" pref="147" max="-2" attributes="0"/>
+                          </Group>
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="agregarTipoEventoBtn" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" attributes="0">
-                                      <Component id="nuevoTipoEventoLbl" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="etqError" alignment="0" min="-2" pref="387" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="etqCorrecto" min="-2" pref="342" max="-2" attributes="1"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="etqLugar" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="etqFecha" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="291" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                          <Component id="btnAceptar" min="-2" pref="207" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="etqDescripcion" min="-2" max="-2" attributes="0"/>
+                                              <Component id="etqTipo" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="etqViaje" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                       <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="nuevoTipoEventoTxt" min="-2" pref="140" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="etqNuevoTipo" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="btnAgregarTipoEvento" min="-2" pref="44" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="btnAgregarTipo" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="txtNuevoTipoEvento" min="-2" pref="140" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="fechaEvento" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jScrollPane2" alignment="0" min="-2" pref="201" max="-2" attributes="1"/>
+                                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                                  <Component id="txtNombre" min="-2" pref="226" max="-2" attributes="1"/>
+                                                  <Component id="comboTipo" min="-2" pref="226" max="-2" attributes="0"/>
+                                                  <Component id="scrollListaViajes" alignment="1" min="-2" pref="226" max="-2" attributes="0"/>
+                                                  <Component id="txtLugar" alignment="1" min="-2" pref="226" max="-2" attributes="1"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
                                   </Group>
                               </Group>
                               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                              <Component id="etqViaje" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="etqNombre" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace max="32767" attributes="0"/>
-                                      <Component id="etqFechas" min="-2" pref="147" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="etqError" alignment="0" min="-2" pref="387" max="-2" attributes="0"/>
-                                          <Component id="etqTipo" alignment="0" min="-2" pref="77" max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                              <Component id="comboTipo" min="-2" pref="226" max="-2" attributes="0"/>
-                                              <Component id="etqCorrecto" min="-2" pref="342" max="-2" attributes="1"/>
-                                              <Component id="txtLugar" alignment="1" min="-2" pref="226" max="-2" attributes="1"/>
-                                              <Component id="txtNombre" alignment="1" min="-2" pref="226" max="-2" attributes="1"/>
-                                              <Component id="scrollListaViajes" alignment="1" min="-2" pref="226" max="-2" attributes="0"/>
-                                              <Component id="btnAceptar" alignment="1" min="-2" pref="207" max="-2" attributes="0"/>
-                                              <Group type="102" alignment="1" attributes="0">
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Group type="102" alignment="1" attributes="0">
-                                                          <Component id="etqDescripcion" min="-2" max="-2" attributes="0"/>
-                                                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
-                                                      </Group>
-                                                      <Group type="102" alignment="0" attributes="0">
-                                                          <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="etqLugar" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                              <Component id="etqFecha" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                          </Group>
-                                                          <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
-                                                      </Group>
-                                                  </Group>
-                                                  <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="fechaEvento" min="-2" max="-2" attributes="0"/>
-                                                      <Component id="jScrollPane2" min="-2" pref="201" max="-2" attributes="1"/>
-                                                  </Group>
-                                              </Group>
-                                          </Group>
-                                      </Group>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
                       </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="etqAclaracion" min="-2" pref="499" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -223,52 +220,55 @@
                       <Component id="etqError" min="-2" pref="32" max="-2" attributes="1"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
+                          <Group type="102" attributes="0">
                               <Component id="etqViaje" min="-2" max="-2" attributes="1"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="etqFechas" min="-2" pref="21" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="scrollListaViajes" min="-2" pref="63" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                               <Component id="etqNombre" min="-2" max="-2" attributes="1"/>
+                              <EmptySpace min="14" pref="14" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="scrollListaViajes" min="-2" pref="63" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                               <Component id="txtNombre" min="-2" pref="30" max="-2" attributes="1"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="16" pref="16" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="etqLugar" min="-2" max="-2" attributes="1"/>
                           <Component id="txtLugar" alignment="0" min="-2" pref="30" max="-2" attributes="1"/>
                       </Group>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="etqTipo" min="-2" pref="21" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="comboTipo" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="nuevoTipoEventoLbl" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="nuevoTipoEventoTxt" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                          <Component id="etqTipo" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
+                          <Component id="comboTipo" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="107" max="-2" attributes="0"/>
                               <Component id="etqFecha" min="-2" max="-2" attributes="1"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="agregarTipoEventoBtn" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="btnAgregarTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtNuevoTipoEvento" alignment="3" min="-2" pref="29" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="btnAgregarTipoEvento" min="-2" max="-2" attributes="0"/>
+                                  <Component id="etqNuevoTipo" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                               <Component id="fechaEvento" min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="etqDescripcion" alignment="0" min="-2" max="-2" attributes="1"/>
                           <Component id="jScrollPane2" alignment="0" min="-2" pref="70" max="-2" attributes="0"/>
@@ -277,9 +277,9 @@
                       <Component id="etqCorrecto" min="-2" pref="29" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="btnAceptar" min="-2" pref="32" max="-2" attributes="0"/>
-                      <EmptySpace pref="17" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="etqAclaracion" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <EmptySpace pref="65" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -482,24 +482,42 @@
                 <Property name="text" type="java.lang.String" value="* El proceso de creaci&#xf3;n del evento prodr&#xed;a demorar unos segundos."/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="nuevoTipoEventoLbl">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Agregar nuevos destinos:"/>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="txtNuevoTipoEvento">
             </Component>
-            <Component class="javax.swing.JTextField" name="nuevoTipoEventoTxt">
-            </Component>
-            <Component class="javax.swing.JButton" name="agregarTipoEventoBtn">
+            <Component class="javax.swing.JButton" name="btnAgregarTipoEvento">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Agregar"/>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/imagenes/plus_1.png"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="agregarTipoEventoBtnActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarTipoEventoActionPerformed"/>
               </Events>
             </Component>
             <Component class="com.toedter.calendar.JDateChooser" name="fechaEvento">
               <Properties>
                 <Property name="dateFormatString" type="java.lang.String" value="dd/MM/yyyy"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="btnAgregarTipo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar nuevo tipo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarTipoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="etqNuevoTipo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="12" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="0" red="0" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Escriba el nuevo tipo y presione el bot&#xf3;n +"/>
               </Properties>
             </Component>
           </SubComponents>
